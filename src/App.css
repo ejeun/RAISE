@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 60px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 120px;
+  padding: 20px;
+  color: white;
+}
+
+.App-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Slider {
+  height: 100vh;
+
+  /* line them up */
+  /* display: flex; */
+  /* flex-direction: column; */
+
+  /* allow for scrolling */
+  overflow-y: auto;
+
+  /* make it smooth on iOS */
+  -webkit-overflow-scrolling: touch;
+
+  scroll-snap-type: mandatory;
+  /* older spec implementation */
+  scroll-snap-destination: 100% 0%;
+  scroll-snap-points-y: repeat(100%);
+}
+
+.slider > div {
+  /* make sure the width is honored */
+  flex-shrink: 0;
+  width: 500px;
+  height: 1000px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
