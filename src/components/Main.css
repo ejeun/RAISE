@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400, 600');
+
+.Main {
+  background-color: white;
+  color: black;
+  height: 100vh;
+}
+
+.Main-splash {
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+
+.Main-container {
+  padding: 60px;
+}
+
+.selected {
+  font-weight: 600;
+}
+
+.Main-RAISE {
+  color: inherit;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+.Main-Links {
+  color: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .7px;
+  line-height: 22px;
+}
