@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactSidebar from 'react-sidebar'
 // import './Project.css';
 
 const infoPlaceholder = `RAISE (Revolutionizing Asian American Immigrant Stories on the East Coast) is a pan-Asian undocumented youth-led group on the East Coast. We aim to create safe spaces in our communities while advocating for humane immigration policies.
@@ -16,6 +17,7 @@ Friday 8/18
 General Meeting @ AALDEF 14th Fl`;
 
 const Sidebar = ({selected}) => {
+    const content =
   return (
     <div className="Sidebar">
       <div className="Sidebar-container">

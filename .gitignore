@@ -1,0 +1,20 @@
+/node_modules
+/public/*.js*
+/public/report.html
+/public/styleguide
+npm-debug.log
+.DS_Store
+
+# IntelliJ
+*.iml
+/.idea
+a687dc196313c38909e5c166c364d060.svg
+coverage
+semantic/dist/components
+semantic/dist/themes/*
+semantic/dist/*.js
+semantic/dist/*.css
+semantic/dist/themes/default/
+bundle.js.map
+*.swp
+
